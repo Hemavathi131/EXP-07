@@ -28,6 +28,7 @@ Developed by:HEMAVATHI N
 Registeration Number :212221040055 */
 
 # activity_main.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -46,7 +47,10 @@ Registeration Number :212221040055 */
     app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-MainActivity.java
+```
+
+# MainActivity.java
+```
 package com.example.listview;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -99,7 +103,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+```
 # mylist.xml
+```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -142,9 +148,11 @@ public class MainActivity extends AppCompatActivity {
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#4d4d4d"
         android:textStyle="bold" />
-`
+
 </LinearLayout>
-MyListAdapter.java
+```
+# MyListAdapter.java
+```
 package com.example.listview;
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -173,6 +181,7 @@ public View getView(int position,View view,ViewGroup parent) {
         return rowView;
         };
 }
+```
 # OUTPUT
 ![image](https://github.com/Hemavathi131/EXP-07/assets/128135323/4355c3b5-53cd-49de-86c6-e9eebe452503)
 ![image](https://github.com/Hemavathi131/EXP-07/assets/128135323/ff8b17f7-1141-490f-8ca2-f6518ab3921c)
